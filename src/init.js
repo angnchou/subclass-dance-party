@@ -33,14 +33,14 @@ $(document).ready(function() {
   });
 
   $('.lineUp').on('click', function(event) {
-    //window.makeDancer.prototype.setPosition(0, 0);
-    
     var styleSettings = {
-      left: 1000
+      left: 0
     };
     $('.dancer').css(styleSettings);
   });
-  
-  //});
+
+  $('.dancer').mouseover(function() {
+    $('.dancer').toggle('explode');
+  });
 });
 
