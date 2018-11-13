@@ -1,6 +1,6 @@
 var makeBlinkyDancer = function(top, left, timeBetweenSteps) {
   makeDancer.call(this, top, left, timeBetweenSteps);
-  this.$node = $('<img class="dancer" src="dancingBaby.gif"></img>');
+  this.$node = $('<img class="dancer" src="blinkdancer.gif"></img>');
   this.oldStep = makeDancer.prototype.step;
   this.step();
   this.setPosition(top, left);
