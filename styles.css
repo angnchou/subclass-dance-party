@@ -1,5 +1,6 @@
 body, html{
   height:100%;
+  width:100%;
 }
 body{
   margin: 30px;
@@ -30,7 +31,7 @@ body, a:link, a:visited, a:active{
   background-color: #777;
 }
 .dancer{
-  width: 150px;
+  width: 200px;
   position: absolute;
 }
 
