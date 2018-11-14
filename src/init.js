@@ -37,10 +37,7 @@ $(document).ready(function() {
       left: 0
     };
     $('.dancer').css(styleSettings);
-  });
 
-  $('.dancer').mouseover(function() {
-    $('.dancer').toggle('explode');
   });
 });
 
